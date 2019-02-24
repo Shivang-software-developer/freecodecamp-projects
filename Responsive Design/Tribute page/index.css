@@ -1,0 +1,70 @@
+body{
+    font:12px Arial;
+    margin:25px 10px 40px 10px;
+    line-height:1.5em;
+}
+
+main{
+    background-color:#ccc;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+header{
+    align-self:center;
+}
+
+header p {
+    text-align:center;
+    /* font-size:0.7em; */
+}
+
+#img-div{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    align-self:center;
+    background-color:#fff;
+    font-size:0.9em;
+}
+
+#img-div img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+#img-div figcaption{
+    text-align:center;
+}
+
+#tribute-info{
+    align-self:center;
+    width:30%;
+}
+
+#tribute-info h3{
+    font-weight: 700;
+}
+
+#tribute-info ul li{
+    margin:0.8em;
+}
+
+#tribute_quote{
+    width:80%;
+    align-items:center;
+    margin:auto;
+}
+
+blockquote cite{
+    align-self:center;
+    border:1px solid red;
+}
+
+#tribute_external_link_info{
+    align-self: center;
+    width:80%;
+    font-size:1em;
+}
