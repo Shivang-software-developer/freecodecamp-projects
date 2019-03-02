@@ -1,0 +1,31 @@
+body#product_landing_page {
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin: 40px;
+  background-color: #ddd; }
+
+header#header nav#nav-bar {
+  font-size: 0.8em;
+  width: 100%;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-between; }
+  header#header nav#nav-bar div {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between; }
+    header#header nav#nav-bar div #header-img, header#header nav#nav-bar div h1 {
+      margin: 10px;
+      align-items: flex-start; }
+  header#header nav#nav-bar ul {
+    list-style-type: none; }
+    header#header nav#nav-bar ul li {
+      display: inline-block;
+      margin-right: 140px; }
+      header#header nav#nav-bar ul li a.link {
+        text-decoration: none;
+        color: #342434; }
+      header#header nav#nav-bar ul li a.link:hover {
+        color: #8a8f96; }
+      header#header nav#nav-bar ul li a.link:visited, header#header nav#nav-bar ul li a#link:active {
+        color: #231211; }
