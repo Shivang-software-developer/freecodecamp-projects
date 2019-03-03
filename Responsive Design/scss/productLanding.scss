@@ -1,0 +1,59 @@
+
+
+//SCSS variable that can be used elsewhere thus, not repeating common values in our scss. 
+$full-width: 100%;
+
+//Mixin - it acts as a function which take arguments. thus, using the css properties definied in it to be used elsewhere with DRY prograamng. A classic example would be to use it with the css-vendor properties.
+@mixin flat-display (){
+    display:flex;
+    flex-direction: row wrap;
+    justify-content:space-between;
+};
+
+//Product Landing Page
+body#product_landing_page{
+    font-size:16px;
+    font-family:'Roboto';
+    margin:40px;
+    background-color:#ddd;
+    
+}
+
+header#header{
+    nav#nav-bar{
+        font-size:0.8em;
+        width:$full-width;
+        @include flat-display();
+    
+        div{
+    
+            @include flat-display();
+            #header-img,h1{
+                margin:10px;
+                align-items:flex-start;
+            }
+        }
+        ul{
+            list-style-type: none;
+    
+            li{
+                display: inline-block;
+                margin-right:140px;
+                
+    
+                a.link{
+                text-decoration:none;
+                color:#342434;
+                }
+    
+                a.link:hover{
+                    color:#8a8f96;
+                }
+    
+                a.link:visited, a#link:active{
+                    color:#231211;
+                }
+            }
+        }
+    }
+}
